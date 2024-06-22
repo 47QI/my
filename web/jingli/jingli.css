@@ -1,0 +1,347 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header {
+    color: rgb(66, 150, 229);
+    font-family: 宋体;/*字体样式*/
+}
+.header {
+    /*头部*/
+    width: 100%;/*宽度*/
+    height: 100%/*高度*/
+}
+
+body {
+    /*主体*/
+    color: aliceblue;
+    /*颜色*/
+    font-family: 楷体;
+    /*字体样式*/
+    background-color: rgb(131, 200, 255);
+}
+ 
+
+.dh {
+    height: 30px;
+}
+ 
+.dh ul {
+    /*导航栏*/
+    margin-bottom: 30px;
+    width: 1539px;
+    padding: 0px;
+    height: 30px;
+}
+ 
+.dh ul li {
+    /*列表设置*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;
+    /*列表样式*/
+    float: left;
+    display: inline
+        /*行内显示*/
+}
+ 
+.dh ul li a {
+    /*列表超链接设置*/
+    text-align: center;
+    /*文本中部*/
+    color: white;
+    width: 100%;
+    font-size: larger;
+    font-family: 楷体;
+    text-decoration: none;
+    /*列表下划线无*/
+    display: block;
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    /*行高*/
+    border-bottom: 1px solid rgb(168, 164, 172);
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;
+    /*浮动清空*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;
+    /*字体设置*/
+    text-align: center;
+}
+ 
+.footer p {
+    margin-top: 10px;
+}
+ 
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;
+    /*右浮动*/
+    padding: 0px;
+    /*内边距*/
+}
+ 
+ 
+#small {
+    /*我小时候*/
+    clear: both;
+    /*浮动清除*/
+    margin-top: 20px;
+    padding: 5px;
+    /*内边距*/
+    height: 165px;
+    background-color: rgb(156, 213, 242);
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    /*虚线*/
+    border-radius: 10px;
+ 
+}
+ 
+#small1 {
+    /*我小时候*/
+    width: 450px;
+    height: 200px;
+    float: left;
+    /*左浮动*/
+}
+ 
+#mydog {
+    /*我家小狗*/
+    width: 450px;
+    height: 200px;
+    float: right;
+    /*右浮动*/
+    padding: 5px;
+    /*内边距*/
+}
+ 
+#small2 {
+    /*我小时候图片*/
+    border-radius: 5%;
+    /*图片弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    object-fit: cover;
+    /*左浮动*/
+    margin: 5px 10px 0px 5px;
+}
+ 
+#small2:hover {
+    /*划过图片时*/
+    transform: scale(1.2);
+    /*图片放大*/
+ 
+}
+ 
+#dog {
+    /*狗图片*/
+    border-radius: 5%;
+    /*图片弧度*/
+    width: 150px;
+    height: 150px;
+    float: left;
+    /*左浮动*/
+    margin: 0px 10px 0px 0px;
+}
+ 
+#dog:hover {
+    /*鼠标化过时*/
+    transform: scale(1.2);
+    /*图片放大*/
+}
+ 
+#small p {
+    /*我小时候板块文本设置*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+ 
+ 
+#gaozhong {
+    /*我的高中*/
+    clear: both;
+    background-color: rgb(156, 213, 242);
+    padding: 15px;
+    height: 115px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    /*边框样式*/
+    border-radius: 10px;
+    /*边框弧度*/
+ 
+}
+ 
+#gaozhong p {
+    /*我的高中字段*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+}
+ 
+#gaozhong img {
+    /*我的高中图片*/
+    width: 150px;
+    height: 100px;
+    float: left;
+    object-fit: cover;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+    /*边框弧度*/
+ 
+}
+ 
+#gaozhong img:hover {
+    /*我的高中图片划过时*/
+    transform: scale(1.2);
+}
+ 
+#daxue {
+    /*我的大学*/
+    clear: both;
+    background-color: rgb(156, 213, 242);
+    padding: 15px;
+    height: 115px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    /*边框样式*/
+    border-radius: 10px;
+    /*边框弧度*/
+ 
+}
+ 
+#daxue p {
+    /*我的大学字段*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    /*文段缩进*/
+    line-height: 1.5em;
+}
+ 
+#daxue img {
+    /*我的大学图片*/
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+ 
+}
+ 
+#daxue img:hover {
+    /*鼠标划过时我的大学图片*/
+    transform: scale(1.2);
+}
+ 
+#jingli {
+    /*经历*/
+    clear: both;
+    background-color: rgb(156, 213, 242);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+ 
+}
+ 
+#jingli p {
+    /*经历段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+ 
+#jingli img {
+    /*经历图片*/
+    width: 800px;
+    height: 400px;
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+ 
+#jingli img:hover {
+    /*鼠标划过时的经历图片*/
+    transform: scale(1.2);
+}
+ 
+
+ 
+.mulu {
+    /*页面目录*/
+    float: left;
+    /*左浮动*/
+    width: 200px;
+    margin-top: 30px;
+    background-color: rgb(127, 164, 204);
+}
+ 
+
+ 
+.mulu ul li {
+    /*列表设置*/
+    list-style-type: none;
+}
+ 
+.mulu ul {
+    /*目录块*/
+    margin: 0px;
+    padding: 15px 10px 15px 10px;
+}
+ 
+.mulu ul li a {
+    /*目录超链接设置*/
+    display: block;
+    text-decoration: none;
+    /*下划线无*/
+    color: rgb(79, 50, 72);
+    line-height: 30px;
+    /*行高*/
+    border-bottom: 1px dashed black;
+    /*底部边框*/
+    padding: 0px 0px 0px 0px;
+}
+ 
+.mulu ul li a:hover {
+    /*鼠标划过时目录时*/
+    color: aqua;
+}
+ 
+.mulu span {
+    /*目录链接块*/
+    float: right;
+}
+ 
+.zhuti {
+    /*主体*/
+    background-color: rgb(156, 213, 242);
+    margin: 0px 200px 0px 300px;
+}

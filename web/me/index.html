@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简介</title>
+    <link type="text/css" rel="stylesheet" href="me.css">
+    <!--样式设置-->
+    <style>
+        script {
+            color: rgb(140, 15, 15);
+        }
+    </style>
+    <!--时钟显示-->
+    <script>
+        function showTime() {
+            var time = new Date();
+            var day = time.getDay();
+            var date = time.getDate();
+            var year = time.getFullYear();
+            var month = time.getMonth() + 1;
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+            var day1 = day.toString();
+            var nianyue = year + "年" + "&nbsp" + month + "月";
+            var mytime = hour + ":" + minute + ":" + second;
+            // document.getElementById("xinqi").innerHTML = day1;
+            document.getElementById("ri").innerHTML = date;
+            document.getElementById("nianyue").innerHTML = nianyue;
+            document.getElementById("tt").innerHTML = mytime;
+            setTimeout("showTime()", 1000);
+        }
+    </script>
+</head>
+ 
+<body>
+    <div class="header">
+        <!--头部-->
+        <h1>
+            欢迎来到我的个人介绍网站！
+        </h1>
+    </div>
+ 
+    <div class="dh">
+        <!--导航栏 -->
+        <ul>
+            <li><a href="../me/index.html">我的简介</a></li>
+            <li><a href="../jingli/jingli.html">我的经历</a></li>
+            <li><a href="../journal/journal.html">我的旅程</a></li>
+            <li><a href="../cat/cat.html">我和小猫</a></li>
+            <li><a href="../my/my.html">个人图集</a></li>
+        </ul>
+    </div>
+    <!--主体-->
+    <div id="zhuti">
+        <div id="left">
+            <!--主体左边-->
+            <table border="1">
+                <tr>
+                    <th>
+                        <div id="xiaoxun"><!--校训-->
+                            <h2>
+                                <pre> 博文明理
+ 厚德济世
+                        </pre>
+                            </h2>
+                        </div>
+                        <div id="shijian"><!--时间-->
+                            <div id="ri"> 24</div>
+                            <div id="nianyue">2024年6月</div>
+                            <div id="tt">20:57</div>
+                            <script>
+                                showTime();
+                            </script>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div id="xinxi"><!--信息-->
+                            <br>
+                            <br>
+                            <br>
+                            <p>学校：中南财经政法大学</p>
+                            <p>学院：信息与工程学院</p>
+                            <p>专业：信息管理与信息系统</p>
+                            <p>班级：信管2202班</p>
+                            <P>学号：202221130053</P>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div id="right"><!--右边-->
+            <div id="zhan1"><!--标题-->
+                <h1>自我简介</h1>
+            </div>
+            <div id="zhan2"><!--内容-->
+                <ul>
+                    <li>姓名：孙思齐</li>
+                    <li>性别：女</li>
+                    <li>家乡：安徽合肥</li>
+                    <li>爱好：羽毛球、看书、看电影、旅游
+                        <ul id="tuijian">
+                            <li>推荐的书：
+                                <ul id="shu">
+                                    <li>《明朝那些事儿》</li>
+                                    <li>《恶意》</li>
+                                    <li>《傲慢与偏见》</li>
+                                </ul>
+                            </li>
+                            <li id="game">推荐的游戏：
+                                <ul id="games">
+                                    <li>Phigros</li>
+                                    <li>GRIS</li>
+                                    <li>Human Fall Flat</li>
+                                </ul>
+                            </li>
+                            <li id="film">推荐的电影：
+                                <ul id="films">
+                                    <li>《绿皮书》</li>
+                                    <li>《海上钢琴师》</li>
+                                </ul>
+                                <hr size="3" color="rgb(24, 24, 88)">
+                    <a href="../my/my.html">
+                        <p>
+                           我的照片
+                        </p>
+                    </a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+ 
+    </div>
+ 
+ 
+ 
+ 
+ 
+    <div id="" class="footer">
+        
+        <p><!--尾页文字-->
+            人生小满胜万全
+        </p>
+        <p>
+            welcome to my introduction||欢迎看我的简介！
+        </p>
+    </div>
+</body>
+ 
+</html>

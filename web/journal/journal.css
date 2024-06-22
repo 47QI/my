@@ -1,0 +1,388 @@
+* {/*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header {
+    color: rgb(66, 150, 229);
+    font-family: 宋体;/*字体样式*/
+}
+.header {
+    /*头部*/
+    width: 100%;/*宽度*/
+    height: 100%/*高度*/
+    
+}
+
+body {
+    /*主体*/
+    color: aliceblue;
+    /*颜色*/
+    font-family: 楷体;
+    /*字体样式*/
+    background-color: rgb(131, 200, 255);
+}
+
+ 
+img{/*图片设置*/
+    border-radius: 15px;/*边框弧度*/
+ 
+}
+ 
+.dh ul {
+    /*导航栏*/
+    margin-bottom: 30px;
+    width: 1539px;
+    padding: 0px;
+    height: 30px;
+}
+ 
+.dh ul li {/*导航栏列表*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;/*行内显示*/
+    font: 0.9em;/*字体大小*/
+}
+.dh{/*导航高度*/
+    height: 30px;
+}
+.dh ul li a {/*导航链接设置*/
+    text-align: center;/*文字居中*/
+    color: white;
+    width: 100%;
+    font-size: larger;
+    font-family: 楷体;
+    text-decoration: none;/*下划线无*/
+    display: block;/*块显示*/
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);/*底部边框*/
+}
+ 
+.dh ul li a:hover {
+    /*鼠标划导航栏时过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+ 
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;/*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;/*字体设置*/
+    text-align: center;
+}
+.footer p{/*底部段落设置*/
+    margin-top: 10px;
+}
+ 
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;/*右浮动*/
+    padding: 0px;
+}
+span{
+    /*>>>行内设置*/
+    float: right;
+}
+span p{/*>>>行内段落设置*/
+    font-size: small;
+}
+span a{/*链接设置*/
+    color: rgb(0, 0, 0);
+}
+span a:hover{/*鼠标划过时链接变化*/
+    color: rgb(77, 248, 10);
+}
+.zhuti h2{/*主体标题设置*/
+    color: red;
+    font-family: 楷体;/*字体样式*/
+    margin-top: 20px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+margin: 0px 200px 0px 200px;
+background-color: rgb(156, 213, 242);
+}
+#jd1{/*黄鹤楼介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd1 p{
+    letter-spacing: 2px;/*字简介*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: large;
+ 
+}
+#jd1 img{/*黄鹤楼图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+ 
+#jd1 img:hover {/*鼠标黄鹤楼图片时*/
+    transform: scale(1.2);
+ 
+}
+
+#jd2{/*皖西大裂谷介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd2 p{/*皖西大裂谷段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd2 img{/*皖西大裂谷图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd2 img:hover {/*鼠标皖西大裂谷图片时*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd3{/*橘子洲头介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd3 p{/*橘子洲头段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd3 img{/*橘子洲头图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd3 img:hover {/*鼠标划过时橘子洲头图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd4{/*淮北相山介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd4 p{/*淮北相山段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd4 img{/*淮北相山图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd4 img:hover {/*鼠标划过时淮北相山图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd5{/*日照万平口海滨风景区介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd5 p{/*日照万平口海滨风景区段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd5 img{/*日照万平口海滨风景区图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd5 img:hover {/*鼠标划过日照万平口海滨风景区图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd6{/*凤凰古城介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd6 p{/*凤凰古城段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd6 img{/*凤凰古城图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd6 img:hover {/*鼠标划过凤凰古城图片*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd7{/*伏羲庙介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;/*字体大小*/
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd7 p{/*伏羲庙段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd7 img{/*伏羲庙图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd7 img:hover {/*鼠标划过伏羲庙图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd8{/*合肥园博园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd8 p{/*合肥园博园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd8 img{/*合肥园博园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd8 img:hover {/*鼠标划过合肥园博园图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd9{/*武功山介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(156, 213, 242);
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd9 p{/*武功山段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd9 img{/*武功山图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd9 img:hover {/*鼠标划过武功山图片设置*/
+    transform: scale(1.2);
+ 
+}
+ 
+#jd10{/*宜昌滨江公园介绍*/
+    margin-top: 20px;
+    height: 200px;
+    background-color:w;
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#jd10 p{/*宜昌滨江公园段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+ 
+}
+#jd10 img{/*宜昌滨江公园图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+#jd10 img:hover {/*鼠标划过宜昌滨江公园图片设置*/
+    transform: scale(1.2);
+ 
+}
+.zhuti a{/*主体超链接设置*/
+    text-decoration: none;
+}
